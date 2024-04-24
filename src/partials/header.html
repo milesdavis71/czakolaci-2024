@@ -1,14 +1,36 @@
+{{> switcher}}
 <header class="portfolio-hero-header">
     <img class="portfolio-hero-header-logo thumbnail" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
+    {{#ifequal lan 'hu'}}
     <h1 class="h3">Dr. med. habil. Czakó László, Ph.D.</h1>
+    {{/ifequal}}
+    {{#ifequal lan 'en'}}
+    <h1 class="h3">László Czakó, MD, MSc, PhD, DSc</h1>
+    {{/ifequal}}
+    {{#ifequal lan 'hu'}}
     <ul class="portfolio-hero-header-description">
         <li>gasztroenterológus</li>
         <li>diabetológus</li>
     </ul>
-    <ul class="portfolio-hero-header-menu">
-        <li><a class="button primary" href="#">Elérhetőség</a></li>
-        <li><a class="button primary" href="#">Önéletrajz</a></li>
-        <li><a class="button primary" href="#">Publikációk</a></li>
-        <li><a class="button primary" href="#">Fotók</a></li>
+    {{/ifequal}}
+    {{#ifequal lan 'en'}}
+    <ul class="portfolio-hero-header-description">
+        <li>gastroenterologyst</li>
+        <li>diabetologist</li>
     </ul>
+    {{/ifequal}}
+    {{#ifequal lan 'hu'}}
+    <ul class="portfolio-hero-header-menu">
+        {{#each global.pages}}
+        <li><a class="button primary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
+        {{/each}}
+    </ul>
+    {{/ifequal}}
+    {{#ifequal lan 'en'}}
+    <ul class="portfolio-hero-header-menu">
+        {{#each global.pages}}
+        <li><a class="button primary" href=" {{root}} {{page-en}}.html">{{title-en}}</a></li>
+        {{/each}}
+    </ul>
+    {{/ifequal}}
 </header>

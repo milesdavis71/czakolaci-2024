@@ -1,0 +1,52 @@
+<!-- Helpers -->
+{{#ifequal foo bar}}
+<p>foo and bar are equal</p>
+{{else}}
+<p>foo and bar are not equal</p>
+{{/ifequal}}
+{{#ifpage 'index'}}
+<p>This is definitely the Index page.</p>
+{{/ifpage}}
+{{#unlesspage 'index'}}
+<p>This is definitely <em>not</em> the Index page.</p>
+{{/unlesspage}}
+<ul>
+    {{#repeat 5}}
+    <li>Five hundred ninety-nine US dollars</li>
+    {{/repeat}}
+</ul>
+{{#markdown}}
+# Heading 1
+Lorem ipsum [dolor sit amet](https://example.com), consectetur adipisicing elit. Nam dolor, perferendis. Mollitia aut dolorum, est amet libero eos ad facere pariatur, ullam dolorem similique fugit, debitis impedit, eligendi officiis dolores.
+{{/markdown}}
+<!-- Custom helpers -->
+// Example file src/helpers/bold.js
+module.exports = function(options) {
+// options.fn(this) = Handelbars content between {{#bold}} HERE {{/bold}}
+var bolder = '<strong>' + options.fn(this) + '</strong>';
+return bolder;
+}
+// Example gulpfile.babel.js
+function pages() {
+return gulp.src('src/pages/**/*.html')
+.pipe(panini({
+root: 'src/pages',
+layouts: 'src/layouts',
+partials: 'src/partials',
+helpers: 'src/helpers'
+}))
+.pipe(inky())
+.pipe(gulp.dest('dist'));
+}
+<!--Custom Data-->
+---
+title: Page Title
+description: Lorem ipsum.
+---
+<!-- The rest of your HTML is down here. -->
+<h1>{{ title }}</h1>
+<ul class="breakfast-items">
+    {{#each breakfast}}
+    <li>{{ this }}</li>
+    {{/each}}
+</ul>

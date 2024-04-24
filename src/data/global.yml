@@ -1,0 +1,24 @@
+pages:
+  - 
+    title-hu: Elérhetőség
+    title-en: Contact
+    page-hu: index
+    page-en: contact
+  - 
+    title-hu: Önéletrajz
+    title-en: Curriculum
+    page-hu: oneletrajz
+    page-en: curriculum
+   
+  - 
+    title-hu: Publikációk
+    title-en: Publications
+    page-hu: publikaciok
+    page-en: publications
+  
+  - 
+    title-hu: Fotók
+    title-en: Gallery
+    page-hu: fotok
+    page-en: gallery
+   
