@@ -1,0 +1,9 @@
+|                          |                                             |
+|:-------------------------|:--------------------------------------------|
+| Name:                    | László Czakó, MD, MSc, PhD, DSc             |
+| Place and date of birth: | Szeged, Hungary, 5th of January, 1966       |
+| Permanent address:       | Fakopáncs u. 5, Szeged, H-6726, Hungary  Tel: (36)-62-450-738, (36)-20-3315-645      |
+
+| Office address: | Department of Medicine, Center of Gastroenterology University of Szeged <br>Szeged, P.O.Box:427<br>H-6701, Hungary.<br>Tel: (36)-62-545-187<br>Fax: (36)-62-545-185<br>e-mail: czako.laszlo@med.u-szeged.hu |
+| Education | 1980–1984: Secondary Grammar School, Szolnok, Hungary<br>1984–1990: Albert Szent-Györgyi Medical University, Szeged, Hungary<br>1990: MD degree (score: excellent, “summa cum laude”)<br>1995: Specialist of Internal Medicine (score: excellent)<br>1998: Specialist of Endoscopy, Gastroenterology, Hepatology (score: excellent)<br>1999: PhD degree in pancreatology (score: excellent, “summa cum laude”)<br>1996–1999: Health Economist, Attila József University, Szeged, Hungary<br>2005: Habilitation (med. habil.), University of Szeged<br>2006: Specialist of Diabetes Mellitus<br>2014: DSc degree |
+|Position held: | 1987-1990: Part-time researcher, part-time lecturer, Dept. of Pathophysiology, Albert Szent-Györgyi Med. Univ.<br>1990–1995: Research Associate, Internist, First Dept. of Medicine, Albert Szent-Györgyi Med. Univ. 1995–2002: Assistant Professor, First Dept. of Medicine, University of Szeged<br>2003–2009: First Assistant Professor, First Dept. of Medicine, University of Szeged<br>2009–2014: Associate Professor, First Dept. of Medicine, University of Szeged<br>2014 – present: Professor, First Dept. of Medicine, University of Szeged|
