@@ -1,9 +1,12 @@
 {{> switcher}}
 <header class="portfolio-hero-header">
-    <img class="portfolio-hero-header-logo thumbnail" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
-    {{#ifequal lan 'hu'}}
-    <h1 class="h3">Dr. med. habil. Czakó László, Ph.D.</h1>
-    {{/ifequal}}
+    <span class="slide-down">
+        <p class="text-center"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
+        </p>
+        {{#ifequal lan 'hu'}}
+        <h1 class="h3">Dr. med. habil. Czakó László, Ph.D.</h1>
+        {{/ifequal}}
+    </span>
     {{#ifequal lan 'en'}}
     <h1 class="h3">László Czakó, MD, MSc, PhD, DSc</h1>
     {{/ifequal}}

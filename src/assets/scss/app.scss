@@ -65,3 +65,8 @@
 @include motion-ui-animations;
 
 @import 'components/building-blocks/portfolio-hero-header';
+
+.slide-down {
+    @include mui-animation(fade, slide($direction: down));
+    animation-duration: 2s;
+}
