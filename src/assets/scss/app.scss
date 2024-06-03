@@ -69,4 +69,5 @@
 .slide-down {
     @include mui-animation(fade, slide($direction: down));
     animation-duration: 2s;
+    animation-iteration-count: 1;
 }

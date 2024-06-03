@@ -6,16 +6,6 @@ $portfolio-hero-header-background-color: $light-gray;
     align-items: center;
     background-color: $portfolio-hero-header-background-color;
     padding: 2rem 0;
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
 }
 
 .portfolio-hero-header-description {

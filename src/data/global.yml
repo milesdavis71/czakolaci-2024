@@ -4,21 +4,28 @@ pages:
     title-en: Contact
     page-hu: index
     page-en: contact
+    classes: primary
   - 
     title-hu: Önéletrajz
     title-en: Curriculum
     page-hu: oneletrajz
     page-en: curriculum
+    classes: primary
+
    
   - 
     title-hu: Publikációk
     title-en: Publications
     page-hu: publikaciok
     page-en: publications
+    classes: primary
+
   
   - 
     title-hu: Fotók
     title-en: Gallery
     page-hu: fotok
     page-en: gallery
+    classes: primary
+
    

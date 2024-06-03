@@ -1,12 +1,20 @@
 {{> switcher}}
-<header class="portfolio-hero-header">
+<div class="grid-x" style="background-color: gray;">
+    <p class="text-center"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
+    </p>
+</div>
+<!-- <header class="portfolio-hero-header">
+    {{#ifpage 'index'}}
     <span class="slide-down">
+        {{/ifpage}}
         <p class="text-center"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
         </p>
         {{#ifequal lan 'hu'}}
         <h1 class="h3">Dr. med. habil. Czakó László, Ph.D.</h1>
         {{/ifequal}}
+        {{#ifpage 'index'}}
     </span>
+    {{/ifpage}}
     {{#ifequal lan 'en'}}
     <h1 class="h3">László Czakó, MD, MSc, PhD, DSc</h1>
     {{/ifequal}}
@@ -23,9 +31,8 @@
     </ul>
     {{/ifequal}}
     {{#ifequal lan 'hu'}}
-    <ul class="portfolio-hero-header-menu">
-        {{#each global.pages}}
-        <li><a class="button primary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
+    <ul class="portfolio-hero-header-menu"> {{#each global.pages}}
+        <li><a class="secondary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
@@ -36,4 +43,4 @@
         {{/each}}
     </ul>
     {{/ifequal}}
-</header>
+</header> -->
