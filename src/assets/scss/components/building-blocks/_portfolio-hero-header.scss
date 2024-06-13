@@ -40,7 +40,7 @@ $portfolio-hero-header-background-color: $light-gray;
     justify-content: center;
     margin: 0;
 
-    @include breakpoint(medium and large) {
+    @include breakpoint(medium) {
         li {
             margin: 1.25rem;
 
@@ -51,7 +51,7 @@ $portfolio-hero-header-background-color: $light-gray;
         }
     }
 
-    @include breakpoint(small) {
+    @include breakpoint(medium down) {
         li {
             margin: 0.75rem;
 
