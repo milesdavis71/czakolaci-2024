@@ -27,15 +27,16 @@
     </ul>
     {{/ifequal}}
     {{#ifequal lan 'hu'}}
-    <ul class="portfolio-hero-header-menu"> {{#each global.pages}}
-        <li><a class="secondary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
+    <ul class="menu">
+        {{#each global.pages}}
+        <li {{#ifpage page-hu }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
     {{#ifequal lan 'en'}}
-    <ul class="portfolio-hero-header-menu">
+    <ul class="menu">
         {{#each global.pages}}
-        <li><a class="button primary" href=" {{root}} {{page-en}}.html">{{title-en}}</a></li>
+        <li {{#ifpage page-en }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-en}}.html">{{title-en}}</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
