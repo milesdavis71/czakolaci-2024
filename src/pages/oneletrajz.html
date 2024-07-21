@@ -1,8 +1,12 @@
-<h3 class="text-center" style="	margin-top: 1rem;">Önéletrajz</h3>
+---
+title: Önéletrajz
+columns: 6
+---
+<h4 class="text-center" style=" margin-top: 1rem;">{{title}}</h4>
 <div class="grid-x grid-padding-x">
     <div class="cell auto"></div>
-    <div class="cell large-6">
-        {{> markdown_oneletrajz}}
+    <div class="cell large-{{columns}}">
+        {{> md-oneletrajz}}
     </div>
     <div class="cell auto"></div>
 </div>
