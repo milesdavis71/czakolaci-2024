@@ -23,14 +23,14 @@
     {{#ifequal lan 'hu'}}
     <ul class="menu">
         {{#each global.pages}}
-        <li {{#ifpage page-hu }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-hu}}">{{title-hu}}</a></li>
+        <li {{#ifpage page-hu }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-hu}}">{{title-hu}}/</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
     {{#ifequal lan 'en'}}
     <ul class="menu">
         {{#each global.pages}}
-        <li {{#ifpage page-en }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-en}}">{{title-en}}</a></li>
+        <li {{#ifpage page-en }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-en}}">{{title-en}}/</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
