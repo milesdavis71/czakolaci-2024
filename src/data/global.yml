@@ -3,7 +3,7 @@ pages:
     title-hu: Elérhetőség
     title-en: Contact
     page-hu: index
-    page-en:   contact
+    page-en:  contact
     classes: primary
   - 
     title-hu: Önéletrajz
@@ -19,7 +19,3 @@ pages:
     page-hu: publikaciok
     page-en: publications
     classes: primary
-
-  
-  
-   

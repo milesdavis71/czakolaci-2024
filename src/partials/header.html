@@ -3,20 +3,22 @@
     {{#ifpage 'index'}}
     <span class="slide-down">
         {{/ifpage}}
-        <p class="text-center"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
-        </p>
-        {{#ifequal lan 'hu'}}
-        <h1 class="h3">Prof. Dr. Czakó László</h1>
-        {{/ifequal}}
-        {{#ifpage 'index'}}
+        <p class="text-center show-for-large"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
+            <p class="text-center show-for-small-only"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló-narrow.jpg" />
+            </p>
+            {{#ifequal lan 'hu'}}
+            <h1 class="h3">Prof. Dr. Czakó László</h1>
+            {{/ifequal}}
+            {{#ifpage 'index'}}
     </span>
     {{/ifpage}}
     {{#ifequal lan 'en'}}
     <h1 class="h3">László Czakó, MD, MSc, PhD, DSc</h1>
     {{/ifequal}}
     {{#ifequal lan 'hu'}}
-    <h5 style="margin-bottom: 1em;">belgyógyász, gasztroenterológus, diabetológus szakorvos</h5>
-    <h5 style="margin-bottom: 1em;">PhD, med. habil., DSc, Msc</h5>
+    <h5 class="text-center show-for-large" style="margin-bottom: 1em;">belgyógyász, gasztroenterológus, diabetológus szakorvos</h5>
+    <h5 class="text-center show-for-small-only" style="margin-bottom: 1em;">belgyógyász, gasztroenterológus,<br>diabetológus szakorvos</h5>
+    <h5 class="text-center" style="margin-bottom: 1em;">PhD, med. habil., DSc, Msc</h5>
     {{/ifequal}}
     {{#ifequal lan 'en'}}
     <h5 style="margin-bottom: 1em;">gastroenterologyst, diabetologist</h5>
