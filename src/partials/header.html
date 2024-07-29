@@ -6,34 +6,26 @@
         <p class="text-center show-for-large"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló.jpg" />
             <p class="text-center show-for-small-only"><img class="portfolio-hero-header-logo" src="{{root}}assets/img/dr-czakó-lászló-narrow.jpg" />
             </p>
-            {{#ifequal lan 'hu'}}
-            <h1 class="h3">Prof. Dr. Czakó László</h1>
-            {{/ifequal}}
             {{#ifpage 'index'}}
     </span>
     {{/ifpage}}
-    {{#ifequal lan 'en'}}
-    <h1 class="h3">László Czakó, MD, MSc, PhD, DSc</h1>
-    {{/ifequal}}
     {{#ifequal lan 'hu'}}
+    <h1 class="text-center h3">Prof. Dr. Czakó László</h1>
+    <h5 class="text-center show-for-small-only" style="margin-bottom: 1em;">belgyógyász, gasztroenterológus, <br>diabetológus szakorvos</h5>
     <h5 class="text-center show-for-large" style="margin-bottom: 1em;">belgyógyász, gasztroenterológus, diabetológus szakorvos</h5>
-    <h5 class="text-center show-for-small-only" style="margin-bottom: 1em;">belgyógyász, gasztroenterológus,<br>diabetológus szakorvos</h5>
-    <h5 class="text-center" style="margin-bottom: 1em;">PhD, med. habil., DSc, Msc</h5>
-    {{/ifequal}}
-    {{#ifequal lan 'en'}}
-    <h5 style="margin-bottom: 1em;">gastroenterologyst, diabetologist</h5>
-    {{/ifequal}}
-    {{#ifequal lan 'hu'}}
+    <h5 class="text-center" style="margin-bottom: 1em;">PhD, med. habil., DSc, Msc </h5>
     <ul class="menu">
         {{#each global.pages}}
-        <li {{#ifpage page-hu }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-hu}}">{{title-hu}}</a></li>
+        <li {{#ifpage page-hu }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-hu}}.html">{{title-hu}}</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
     {{#ifequal lan 'en'}}
+    <h1 class="text-center h3">László Czakó, MD, MSc, PhD, DSc</h1>
+    <h5 class="text-center" style="margin-bottom: 1em;">gastroenterologyst, diabetologist</h5>
     <ul class="menu">
         {{#each global.pages}}
-        <li {{#ifpage page-en }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-en}}">{{title-en}}</a></li>
+        <li {{#ifpage page-en }} class="is-active" {{/ifpage}}><a class="secondary" href=" {{root}} {{page-en}}.html">{{title-en}}</a></li>
         {{/each}}
     </ul>
     {{/ifequal}}
